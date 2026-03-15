@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: #003049;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background-color: #00F7FF;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a:hover {
+    color: blue;
+    font-weight: bold;
+    background-color: magenta;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+header nav a:active {
+    background-color: orangered;
+    color: white;
+    transform: scale(1.05) translateY(10px);
+}
+
+header ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.courses-content div p {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #16476A;
+}
+
+.courses {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.courses-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #00F7FF;
+    font-weight: bold;
+}
+
+.courses-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.courses-content > div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0FFFA;
+    border-radius: 2rem;
+}
+
+.courses-content > div a {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: lightseagreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.courses-content > div a:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.05);
+}
+
+.courses-content > div a:active {
+    transform: translateX(10px) translateY(10px);
+    background-color: orangered;
+}
+
+footer {
+    color: white;
+}
+
+
